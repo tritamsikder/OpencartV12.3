@@ -1,0 +1,43 @@
+00:31:29.045 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest  ****
+00:31:29.174 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link.. 
+00:31:30.105 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link.. 
+00:31:30.108 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details...
+00:31:31.717 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest  ****
+00:31:31.830 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link.. 
+00:31:32.272 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message..
+00:31:32.323 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Test passed
+00:31:32.324 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+00:31:32.945 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link.. 
+00:31:32.946 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details...
+00:31:34.536 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message..
+00:31:34.578 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Test passed
+00:31:34.578 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+00:35:00.012 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\HP\eclipse-workspace\OpencartV12.3\crossbrowsertesting.xml
+
+00:35:00.226 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest  ****
+00:35:00.269 [TestNG-tests-3] ERROR testCases.TC001_AccountRegistrationTest - Test failed: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+00:35:00.274 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+00:35:07.259 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest  ****
+00:35:07.265 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest  ****
+00:35:07.397 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link.. 
+00:35:07.470 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link.. 
+00:35:17.520 [TestNG-tests-1] ERROR testCases.TC001_AccountRegistrationTest - Test failed: element not interactable
+  (Session info: MicrosoftEdge=136.0.3240.92)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [43a754d01e0bc2cbcd713da48f4c66ea, clickElement {id=f.B714456CCC0C763A795C15EBA5770193.d.7202B2FB5E9B53CFE107EA925F350AF7.e.87}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63331}, msedge: {msedgedriverVersion: 136.0.3240.92 (a30c59ee983a..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.136.25:4444/se..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: MicrosoftEdge on Windows 11 (43a754d01e0bc2cbcd713da48f4c66ea)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+Session ID: 43a754d01e0bc2cbcd713da48f4c66ea
+00:35:17.521 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+00:35:27.616 [TestNG-tests-2] ERROR testCases.TC001_AccountRegistrationTest - Test failed: element not interactable
+  (Session info: MicrosoftEdge=136.0.3240.92)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [43a754d01e0bc2cbcd713da48f4c66ea, clickElement {id=f.B714456CCC0C763A795C15EBA5770193.d.7202B2FB5E9B53CFE107EA925F350AF7.e.87}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63331}, msedge: {msedgedriverVersion: 136.0.3240.92 (a30c59ee983a..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.136.25:4444/se..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: MicrosoftEdge on Windows 11 (43a754d01e0bc2cbcd713da48f4c66ea)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Register']]
+Session ID: 43a754d01e0bc2cbcd713da48f4c66ea

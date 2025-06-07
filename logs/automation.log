@@ -1,0 +1,25 @@
+00:35:27.618 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+22:15:09.496 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\HP\eclipse-workspace\OpencartV12.3\grid-docker.xml
+
+22:15:09.852 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest  ****
+22:15:09.874 [main] ERROR testCases.TC001_AccountRegistrationTest - Test failed: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+22:15:09.876 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+22:16:45.434 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\HP\eclipse-workspace\OpencartV12.3\grid-docker.xml
+
+22:16:45.757 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest  ****
+22:16:45.775 [main] ERROR testCases.TC001_AccountRegistrationTest - Test failed: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+22:16:45.777 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+22:24:42.490 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\HP\eclipse-workspace\OpencartV12.3\master.xml
+
+11:50:53.433 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest  ****
+11:50:53.562 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link.. 
+11:50:54.298 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link.. 
+11:50:54.302 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details...
+11:50:55.901 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message..
+11:50:55.946 [main] INFO  testCases.TC001_AccountRegistrationTest - Test passed
+11:50:55.947 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+11:51:00.545 [main] INFO  testCases.TC002_LoginTest - Starting TC002_LoginTest...
+11:51:02.221 [main] INFO  testCases.TC002_LoginTest - TC002_LoginTest finished....
